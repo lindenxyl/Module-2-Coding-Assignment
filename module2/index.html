@@ -4,100 +4,39 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Module2 Assignment</title>
+<link rel="stylesheet" href="style.css">
 </head>
-</html>
-<style>
-*{box-sizing: border-box;}
-h1{font-size:40px;
-font-weight: bold;
-font-style:Arial;
-text-align: center;}
-
-div{border:1px solid black;
-text-align:left;
-display: block;
-background-color: #CCCCCC;
-width: 90%;
-height: 250px;
-padding:30px 10px 20px 10px;
-margin-right: auto; margin-left: auto; 
-margin-bottom:5px;
-overflow:scroll;
-position:relative;}
-p{display: block; width:100px; height:20px; border:1.5px solid black; font-size:18px;
-text-align: center; float:right; position:absolute; top:0; right:0; margin:0;}
-p1{display: block; background-color: #669999;}
-p2{display: block; background-color: #66CC99;}
-p3{display: block; background-color: #66FF99;}
-/*********** Simple Responsive Framework ***********/
-.row{width:100%;}
-/*********** for mobile view *************/
-@media (min-width: 767px){.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{ float:center; border:1px solid black;}
-.col-sm-1{width:8.33%;}
-.col-sm-2{width:16.66%;}
-.col-sm-3{width:25%;}
-.col-sm-4{width:33%;}
-.col-sm-5{width:41.66%;}
-.col-sm-6{width:50%;}
-.col-sm-7{width:58.33%;}
-.col-sm-8{width:66.66%;}
-.col-sm-9{width:74.99%;}
-.col-sm-10{width:83.33%;}
-.col-sm-11{width:91.66%;}
-.col-sm-12{width:100%;}}
-/*********** for middle device only *************/
-@media (min-width: 768px) and (max-width: 991px) {.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left; border:1px solid black;}
-.col-md-1{width:8.33%;}
-.col-md-2{width:16.66%;}
-.col-md-3{width:25%;}
-.col-md-4{width:33%;}
-.col-md-5{width:41.66%;}
-.col-md-6{width:50%;}
-.col-md-7{width:58.33%;}
-.col-md-8{width:66.66%;}
-.col-md-9{width:74.99%;}
-.col-md-10{width:83.33%;}
-.col-md-11{width:91.66%;}
-.col-md-12{width:100%;}}
-/*********** for large device only *************/
-@media (min-width: 992px){
-	.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{float:left; border:1px solid black;}
-.col-lg-1{width:8.33%;}
-.col-lg-2{width:16.66%;}
-.col-lg-3{width:25%;}
-.col-lg-4{width:33%;}
-.col-lg-5{width:41.66%;}
-.col-lg-6{width:50%;}
-.col-lg-7{width:58.33%;}
-.col-lg-8{width:66.66%;}
-.col-lg-9{width:74.99%;}
-.col-lg-10{width:83.33%;}
-.col-lg-11{width:91.66%;}
-.col-lg-12{width:100%;}}
-
-</style>
 <body>
 <h1>Our Menu</h1>
-<div class="col-sm-12 col-md-6 col-lg-4">
+
+<div class="row">
+ <div class="col-lg-4 col-md-6">
+  <div class="menu-item">
+   <div class="chicken title">Chicken</div>
 <p>
-<p1>Chicken</p1>
-</p>
 The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a population of more than 19 billion as of 2011. Humans keep chickens primarily as a source of food, consuming both their meat and their eggs.
-</div>
-
-<div class="col-sm-12 col-md-6 col-lg-4">
-<p>
-<p2>Beef</p2>
 </p>
+  </div>
+ </div>
+
+ <div class="col-lg-4 col-md-6">
+  <div class="menu-item">
+   <div class="beef title">Beef</div>
+<p>
 Beef is the culinary name for meat from cattle. Beef can be harvested from bulls, heifers or steers. Its acceptability as a food source varies in different parts of the world.
-</div>
-
-<div class="col-sm-12 col-md-12 col-lg-4">
-<p>
-<p3>Sushi</p3>
 </p>
+  </div>
+ </div>
+
+ <div class="col-lg-4 col-md-12">
+  <div class="menu-item2">
+   <div class="sushi title">Sushi</div>
+<p>
 Sushi is a food preparation originating in Japan, consisting of cooked vinegared rice combined with other ingredients such as raw seafood, vegetables and sometimes tropical fruits. Ingredients and forms of sushi presentation vary widely, but the ingredient which all sushi have in common is rice (also referred to as shari or sumeshi.
+</p>
+  </div>
+ </div>
 </div>
 </body>
-
+</html>
 
